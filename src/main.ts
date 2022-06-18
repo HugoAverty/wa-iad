@@ -4,28 +4,6 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 import {getLayersMap} from '@workadventure/scripting-api-extra';
 
-const layers = await getLayersMap();
-
-const homeOKTopLeft3 = layers.get('homeOKTopLeft3');
-const homeOKTopLeft2 = layers.get('homeOKTopLeft2');
-const homeOKTopLeft1 = layers.get('homeOKTopLeft1');
-
-const homeOKBotLeft3 = layers.get('homeOKBotLeft3');
-const homeOKBotLeft2 = layers.get('homeOKBotLeft2');
-const homeOKBotLeft1 = layers.get('homeOKBotLeft1');
-
-const homeOKTopRight3 = layers.get('homeOKTopRight3');
-const homeOKTopRight2 = layers.get('homeOKTopRight2');
-const homeOKTopRight1 = layers.get('homeOKTopRight1');
-
-const homeOKBotRight3 = layers.get('homeOKBotRight3');
-const homeOKBotRight2 = layers.get('homeOKBotRight2');
-const homeOKBotRight1 = layers.get('homeOKBotRight1');
-
-
-
-
-
 console.log('Script started successfully');
 
 let currentPopup: any = undefined;
