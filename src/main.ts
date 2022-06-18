@@ -2,8 +2,6 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
-import {getLayersMap} from '@workadventure/scripting-api-extra';
-
 console.log('Script started successfully');
 
 let currentPopup: any = undefined;
@@ -32,7 +30,7 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("topleftPopup","L’association Toit à Moi œuvre en faveur :",[{
             label: "Des réfugiés politiques",
             className: "normal",
-            callback: (popup) => {
+            callback: () => {
 
             }
         },
@@ -50,14 +48,14 @@ WA.onInit().then(() => {
         {
             label: "Des mineurs isolés",
             className: "normal",
-            callback: (popup) => {
+            callback: () => {
 
             }
         },
         {
             label: "Des femmes",
             className: "normal",
-            callback: (popup) => {
+            callback: () => {
 
             }
         },
@@ -84,21 +82,21 @@ WA.onInit().then(() => {
         {
             label: "En milieu urbain",
             className: "normal",
-            callback: (popup) => {
+            callback: () => {
 
             }
         },
         {
             label: "Vivant dans des ZAC (Zones d’Aménagement Concerté)",
             className: "normal",
-            callback: (popup) => {
+            callback: () => {
 
             }
         },
         {
             label: "En Ile-de-France",
             className: "normal",
-            callback: (popup) => {
+            callback: () => {
 
             }
         },
@@ -115,21 +113,21 @@ WA.onInit().then(() => {
         [{
             label: "Un stade de foot",
             className: "normal",
-            callback: (popup) => {
+            callback: () => {
 
             }
             },
             {
                 label: "Une école",
                 className: "normal",
-                callback: (popup) => {
+                callback: () => {
 
                 }
             },
             {
                 label: "Une ferme",
                 className: "normal",
-                callback: (popup) => {
+                callback: () => {
 
                 }
             },
