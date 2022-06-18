@@ -25,8 +25,6 @@ WA.onInit().then(() => {
 
     // TOP LEFT ZONE
     WA.room.onEnterLayer('topleftZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("topleftPopup","L’association Toit à Moi œuvre en faveur :",[{
             label: "Des réfugiés politiques",
             className: "normal",
@@ -66,8 +64,6 @@ WA.onInit().then(() => {
 
     // TOP RIGHT ZONE
     WA.room.onEnterLayer('toprightZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("toprightPopup"," L’association Habitâge intervient en priorité auprès de personnes âgées",[{
             label: "En milieu rural",
             className: "normal",
@@ -107,8 +103,6 @@ WA.onInit().then(() => {
 
     // BOT LEFT ZONE
     WA.room.onEnterLayer('botleftZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("botleftPopup","Quel lieu historique a été investi par l’association Le Village de François ?",
         [{
             label: "Un stade de foot",
@@ -148,8 +142,6 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('botleftZone').subscribe(closePopUp)
 
     WA.room.onEnterLayer('botrightZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("botrightPopup","BOT RIGHT",[]);
     })
 
