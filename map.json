@@ -46,7 +46,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/github.com\/HugoAverty\/wa-iad\/blob\/master\/src\/birds.mp3?raw=true"
+                 "value":"birds.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
