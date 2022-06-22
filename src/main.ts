@@ -142,7 +142,40 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('botleftZone').subscribe(closePopUp)
 
     WA.room.onEnterLayer('botrightZone').subscribe(() => {
-        currentPopup = WA.ui.openPopup("botrightPopup","BOT RIGHT",[]);
+        currentPopup = WA.ui.openPopup("botrightPopup","Solidarités Nouvelles pour le Logement agit auprès des mal-logés en France, soit …",
+            [{
+            label: "4000 personnes",
+            className: "normal",
+            callback: () => {
+
+            }
+            },
+            {
+                label: "400 000 personnes",
+                className: "normal",
+                callback: () => {
+
+                }
+            },
+            {
+                label: "1,2 millions de personnes",
+                className: "normal",
+                callback: () => {
+
+                }
+            },
+            {
+                label: "4 millions de personnes",
+                className: "normal",
+                callback: (popup) => {
+                    // Close the popup when the "Close" button is pressed
+                    WA.room.showLayer("homeOKBotLeft1");
+                    WA.room.showLayer("homeOKBotLeft2");
+                    WA.room.showLayer("homeOKBotLeft3");
+                    popup.close();
+                }
+            },
+        ]);
     })
 
     WA.room.onLeaveLayer('botrightZone').subscribe(closePopUp)
