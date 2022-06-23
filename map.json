@@ -170,7 +170,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/9SXd6Q2fgeE"
+                 "value":"{{YTurl}}"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -688,6 +688,24 @@
                  "width":356,
                  "x":828,
                  "y":2206
+                }, 
+                {
+                 "height":0,
+                 "id":27,
+                 "name":"YTurl",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/c5ew1_qc0TA"
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":719,
+                 "y":1220
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -792,7 +810,7 @@
          "y":0
         }],
  "nextlayerid":100,
- "nextobjectid":27,
+ "nextobjectid":28,
  "orientation":"orthogonal",
  "properties":[
         {
