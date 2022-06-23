@@ -170,7 +170,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"{{YTurl}}"
+                 "value":"{{{ YTurl }}}"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -688,10 +688,21 @@
                  "width":356,
                  "x":828,
                  "y":2206
-                }, 
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":101,
+         "name":"configuration",
+         "objects":[
                 {
                  "height":0,
-                 "id":27,
+                 "id":28,
                  "name":"YTurl",
                  "point":true,
                  "properties":[
@@ -704,8 +715,8 @@
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":719,
-                 "y":1220
+                 "x":718,
+                 "y":1224.33333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -809,8 +820,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":100,
- "nextobjectid":28,
+ "nextlayerid":102,
+ "nextobjectid":29,
  "orientation":"orthogonal",
  "properties":[
         {
