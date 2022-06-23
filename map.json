@@ -206,7 +206,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"inside.json"
+                 "value":"\/@\/bma\/iad-hack-my-flat\/ateliers"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -224,7 +224,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"gaming.json"
+                 "value":"\/@\/bma\/iad-hack-my-flat\/arcade"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -603,7 +603,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json#entryAtelier"
+                 "value":"\/@\/bma\/iad-hack-my-flat\/associations#entryAtelier"
                 }],
          "type":"tilelayer",
          "visible":true,
