@@ -162,7 +162,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/codenames.game\/"
+                 "value":"https:\/\/gamesnacks.com\/embed\/games\/helixjump"
                 }],
          "type":"tilelayer",
          "visible":true,
