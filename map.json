@@ -715,6 +715,16 @@
                          "name":"default",
                          "type":"string",
                          "value":"https:\/\/www.youtube.com\/embed\/c5ew1_qc0TA"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Lien embed YouTube :"
+                        }, 
+                        {
+                         "name":"tag",
+                         "type":"string",
+                         "value":"admin"
                         }],
                  "rotation":0,
                  "type":"variable",
