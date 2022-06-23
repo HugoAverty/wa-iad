@@ -169,9 +169,9 @@ WA.onInit().then(() => {
                 className: "normal",
                 callback: (popup) => {
                     // Close the popup when the "Close" button is pressed
-                    WA.room.showLayer("homeOKBotLeft1");
-                    WA.room.showLayer("homeOKBotLeft2");
-                    WA.room.showLayer("homeOKBotLeft3");
+                    WA.room.showLayer("homeOKBotRight1");
+                    WA.room.showLayer("homeOKBotRight2");
+                    WA.room.showLayer("homeOKBotRight3");
                     popup.close();
                 }
             },
