@@ -150,6 +150,11 @@
                  "value":"Auditorium"
                 }, 
                 {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"admin"
+                }, 
+                {
                  "name":"jitsiWidth",
                  "type":"int",
                  "value":75
