@@ -176,6 +176,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"{{{ YTurl }}}"
+                }, 
+                {
+                 "name":"silent",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
